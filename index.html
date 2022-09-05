@@ -1,19 +1,70 @@
 <html>
-  <head>
-    <title>Last Word Guessing Game</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets/css.style/style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="large-font">Word Guess Game</div>
-      <button class="start-button">Start</button>
-    </header>
-
-    <main>
-   
-    </main>
-    <script src="./assets/javascript/main-script.js"></script>
-  </body>
+    <head>
+        <title>Last Word Guessing Game</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="./assets/css.style/style.css" />
+    </head>
+    <body>
+        <!-- Header Content (High Scores Link, Game Name, Timer)-->
+        <header>
+            <div>
+                <button class="high-scores">View High Scores</button>
+            </div>
+            <div>
+                <h1 class="game-name">Last Word</h1>
+            </div>
+            <div>
+                <time>Time: <span class="countdown-timer">100</span></time> 
+            </div>
+        </header>
+        <!-- Main Content (Start Screen, Multiple Choice Questions & Answers) -->
+        <main>
+            <!-- Start Screen -->
+            <section>
+                <div>
+                    <h2>Coding Quiz Challenge</h2>
+                </div>
+                <div>
+                    <p>Try to answer the following questions within the time limit allowed.<br>
+                        Keep in mind that incorrect answers will penalize your time<br>
+                        by 10 seconds!
+                    </p>
+                </div>
+                <div>
+                    <button class="start-button">Start Quiz</button>
+                </div>
+            </section>
+            <!-- Questions & Choices -->
+            <section class="questions-card">
+                <div class="multiple-questions">
+                    <p>
+                        Multiple choice questions here
+                    </p>
+                </div>        
+            </section>
+            <section class="choice-buttons">
+                <div>
+                    <button class="choice-A">A. </button>
+                </div>
+                <div>
+                    <button class="choice-B">B. </button>
+                </div>
+                <div>
+                    <button class="choice-C">C. </button>
+                </div>
+                <div>
+                    <button class="choice-D">D. </button>
+                </div>
+            </section>
+            <!-- Answer -->
+            <section>
+                <h3 class="answers">Blank</h3>
+            </section>
+        </main>
+        <footer>
+            
+        </footer>
+        <script src="./assets/javascript/main-script.js"></script>
+    </body>
 </html>
