@@ -1,0 +1,23 @@
+/* Variables */
+/* :root {
+    --black: black;
+    --green: green;
+    --white: whitesmoke;
+} */
+
+/* Default Style Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 1600px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: var(--black);
+    justify-content: space-between;
+}
