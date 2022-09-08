@@ -9,62 +9,56 @@
         <!-- Header Content (High Scores Link, Game Name, Timer)-->
         <header>
             <div>
-                <button class="high-scores">View High Scores</button>
+                <a href="#" class="high-scores">View High Scores</a>
             </div>
             <div>
-                <h1 class="game-name">Last Word</h1>
+                <h1 id="game-name">Last Word</h1>
             </div>
             <div>
-                <time>Time: <span class="countdown-timer">100</span></time> 
+                <time>Time: <span id="countdown-timer">100</span></time> 
             </div>
         </header>
         <!-- Main Content (Start Screen, Multiple Choice Questions & Answers) -->
         <main>
             <!-- Start Screen -->
-            <section>
+            <section id="start-screen" class="begin">
                 <div>
                     <h2>Coding Quiz Challenge</h2>
                 </div>
                 <div>
                     <p>Try to answer the following questions within the time limit allowed.<br>
                         Keep in mind that incorrect answers will penalize your time<br>
-                        by 10 seconds!
+                        by 10 seconds! Good Luck!
                     </p>
                 </div>
                 <div>
-                    <button class="start-button">Start Quiz</button>
+                    <button id="start-button">Start Quiz</button>
                 </div>
             </section>
             <!-- Questions & Choices -->
-            <section class="questions-card">
-                <div class="multiple-questions">
-                    <p>
-                        Multiple choice questions here
-                    </p>
+            <section id="questions" class="hidden">
+                <div>
+                    <h3 id="questions-title"></h3>
                 </div>        
-            </section>
-            <section class="choice-buttons">
                 <div>
-                    <button class="choice-A">A. </button>
+                    <button id="questions-choice">A. </button>
                 </div>
                 <div>
-                    <button class="choice-B">B. </button>
+                    <button id="questions-choice">B. </button>
                 </div>
                 <div>
-                    <button class="choice-C">C. </button>
+                    <button id="questions-choice">C. </button>
                 </div>
                 <div>
-                    <button class="choice-D">D. </button>
+                    <button id="questions-choice">D. </button>
                 </div>
             </section>
-            <!-- Answer -->
+            <!-- Feedback Answers to user -->
             <section>
-                <h3 class="answers">Blank</h3>
+                <h4 id="feedback-answers" class="hidden"></h4>
             </section>
         </main>
-        <footer>
-            
-        </footer>
+        <script src="./assets/javascript/questions-script.js"></script>
         <script src="./assets/javascript/main-script.js"></script>
     </body>
 </html>
