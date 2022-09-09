@@ -27,7 +27,7 @@ header h1 {
 
 /* Main Content Style Properties */ 
 main {
-    padding-left: 100px;
+    padding-left: 150px;
 }
 
 #game-name {
@@ -51,19 +51,19 @@ main {
 }
 
 #questions-title {
-
+    
 }
 
 #questions-choice {
-
+    border-radius: 5px;
 }
 
-#feedback-answers {
+#end-screen {
 
 }
 
 .high-scores {
-
+    color: black;
 }
 
 .begin {
@@ -71,5 +71,5 @@ main {
 }
 
 .hidden {
-    
+    display: none;
 }
